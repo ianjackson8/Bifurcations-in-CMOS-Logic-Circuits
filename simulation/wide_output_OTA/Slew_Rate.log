@@ -1,0 +1,70 @@
+LTspice 24.1.1 for Windows
+Circuit: C:\users\ianjackson\Documents\Spring 2025\MATH 560\Project\simulation\wide_output_OTA\Slew_Rate.net
+Start Time: Mon Apr 28 00:14:10 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- BSIM3 MOSFETS ---
+Name:      u1:m1:MN    u1:m2:MN   u1:mb1:MN   u1:mb2:MN    u1:m7:MN
+Model:      cmosn       cmosn       cmosn       cmosn       cmosn
+Id:        2.46e-05    9.47e-07    2.56e-05    1.00e-04    4.29e-05
+Vgs:       9.11e-01    6.58e-01    8.59e-01    8.59e-01    9.50e-01
+Vds:       1.10e+00    1.39e+00    3.42e-01    8.59e-01    9.50e-01
+Vbs:      -3.42e-01   -3.42e-01    0.00e+00    0.00e+00    0.00e+00
+Vth:       6.53e-01    6.53e-01    5.48e-01    5.50e-01    5.35e-01
+Vdsat:     2.24e-01    6.37e-02    2.50e-01    2.52e-01    3.23e-01
+Gm:        1.73e-04    1.97e-05    1.47e-04    5.93e-04    1.90e-04
+Gds:       9.49e-07    8.24e-08    7.79e-06    4.54e-06    1.50e-06
+Gmb        4.58e-05    5.36e-06    4.47e-05    1.79e-04    5.65e-05
+Cbd:       8.99e-15    8.66e-15    9.39e-15    2.68e-14    9.69e-15
+Cbs:       1.10e-14    1.10e-14    1.05e-14    3.37e-14    1.23e-14
+Cgsov:     1.43e-15    1.43e-15    1.18e-15    4.36e-15    1.43e-15
+Cgdov:     1.43e-15    1.43e-15    1.18e-15    4.36e-15    1.43e-15
+Cgbov:     1.00e-18    1.00e-18    1.00e-18    1.00e-18    1.30e-18
+dQgdVgb:   1.89e-14    1.36e-14    1.59e-14    5.82e-14    2.39e-14
+dQgdVdb:  -1.43e-15   -1.43e-15   -1.34e-15   -4.37e-15   -1.44e-15
+dQgdVsb:  -1.64e-14   -9.48e-15   -1.36e-14   -5.03e-14   -2.11e-14
+dQddVgb:  -8.15e-15   -5.05e-15   -6.83e-15   -2.49e-14   -1.02e-14
+dQddVdb:   1.04e-14    1.01e-14    1.07e-14    3.12e-14    1.11e-14
+dQddVsb:   8.60e-15    4.65e-15    7.38e-15    2.72e-14    1.16e-14
+dQbdVgb:  -2.62e-15   -3.48e-15   -2.23e-15   -8.46e-15   -3.54e-15
+dQbdVdb:  -8.99e-15   -8.66e-15   -9.50e-15   -2.68e-14   -9.70e-15
+dQbdVsb:  -1.32e-14   -1.23e-14   -1.27e-14   -4.23e-14   -1.60e-14
+
+Name:      u1:m8:MN    u1:m3:MP    u1:m4:MP    u1:m5:MP    u1:m6:MP
+Model:      cmosn       cmosp       cmosp       cmosp       cmosp
+Id:        4.33e-05    2.46e-05    9.47e-07    4.29e-05    2.00e-06
+Vgs:       9.50e-01    0.00e+00    0.00e+00    4.90e-01    4.77e-01
+Vds:       1.25e+00    1.06e+00    7.70e-01    1.55e+00    1.25e+00
+Vbs:       0.00e+00    1.06e+00    7.70e-01    1.55e+00    1.25e+00
+Vth:       5.35e-01   -7.58e-01   -7.59e-01   -7.44e-01   -7.44e-01
+Vdsat:     3.23e-01   -2.79e-01   -7.34e-02   -2.92e-01   -8.06e-02
+Gm:        1.92e-04    1.46e-04    1.79e-05    2.45e-04    3.59e-05
+Gds:       1.17e-06    2.00e-06    1.30e-07    1.98e-06    1.59e-07
+Gmb        5.69e-05    3.13e-05    3.94e-06    5.24e-05    7.88e-06
+Cbd:       9.23e-15    3.16e-14    3.16e-14    6.19e-14    6.19e-14
+Cbs:       1.23e-14    2.13e-14    2.32e-14    3.71e-14    3.97e-14
+Cgsov:     1.43e-15    3.36e-15    3.36e-15    6.82e-15    6.82e-15
+Cgdov:     1.43e-15    3.36e-15    3.36e-15    6.82e-15    6.82e-15
+Cgbov:     1.30e-18    1.00e-18    1.00e-18    1.30e-18    1.30e-18
+dQgdVgb:   2.39e-14    3.98e-14    2.93e-14    1.00e-13    7.91e-14
+dQgdVdb:  -1.43e-15   -3.30e-15   -3.32e-15   -6.76e-15   -6.78e-15
+dQgdVsb:  -2.11e-14   -3.44e-14   -2.11e-14   -8.78e-14   -6.07e-14
+dQddVgb:  -1.02e-14   -1.73e-14   -1.13e-14   -4.35e-14   -3.15e-14
+dQddVdb:   1.07e-14    3.50e-14    3.50e-14    6.87e-14    6.87e-14
+dQddVsb:   1.16e-14    1.71e-14    9.90e-15    4.52e-14    3.04e-14
+dQbdVgb:  -3.55e-15   -5.27e-15   -6.60e-15   -1.31e-14   -1.62e-14
+dQbdVdb:  -9.23e-15   -3.16e-14   -3.16e-14   -6.19e-14   -6.19e-14
+dQbdVsb:  -1.60e-14   -2.45e-14   -2.53e-14   -4.64e-14   -4.67e-14
+
+
+Total elapsed time: 0.737 seconds.
+
+Files loaded:
+C:\users\ianjackson\Documents\Spring 2025\MATH 560\Project\simulation\wide_output_OTA\Slew_Rate.net
+C:\users\ianjackson\Documents\Spring 2025\MATH 560\Project\simulation\wide_output_OTA\ee551.lib
+

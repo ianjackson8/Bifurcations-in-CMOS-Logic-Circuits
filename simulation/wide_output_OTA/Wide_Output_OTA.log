@@ -1,0 +1,15 @@
+LTspice 24.1.1 for Windows
+Circuit: C:\users\ianjackson\Documents\Spring 2025\MATH 560\Project\simulation\wide_output_OTA\Wide_Output_OTA.net
+Start Time: Sun Apr 27 23:10:37 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+.step 
+Total elapsed time: 0.721 seconds.
+
+Files loaded:
+C:\users\ianjackson\Documents\Spring 2025\MATH 560\Project\simulation\wide_output_OTA\Wide_Output_OTA.net
+C:\users\ianjackson\Documents\Spring 2025\MATH 560\Project\simulation\wide_output_OTA\ee551.lib
+
